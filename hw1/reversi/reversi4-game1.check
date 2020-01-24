@@ -1,0 +1,137 @@
+      
+  1234
+a:----
+b:-BW-
+c:-WB-
+d:----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:----
+b:-BW-
+c:-BB-
+d:-B--
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:----
+b:WWW-
+c:-BB-
+d:-B--
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B---
+b:WBW-
+c:-BB-
+d:-B--
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B---
+b:WBW-
+c:-BB-
+d:-B--
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B---
+b:WBW-
+c:-WW-
+d:-BW-
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B---
+b:WBW-
+c:-WB-
+d:-BBB
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B---
+b:WBW-
+c:-WB-
+d:-BBB
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B---
+b:WBW-
+c:-WWW
+d:-BBB
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B-B-
+b:WBB-
+c:-WBW
+d:-BBB
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:B-B-
+b:WBB-
+c:-WBW
+d:-BBB
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:BWB-
+b:WWW-
+c:-WBW
+d:-BBB
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:BWB-
+b:WWWB
+c:-WBB
+d:-BBB
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:BWWW
+b:WWWB
+c:-WBB
+d:-BBB
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:BWWW
+b:WWWB
+c:-WBB
+d:-BBB
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:BWWW
+b:BWWB
+c:BBBB
+d:-BBB
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+      
+  1234
+a:BWWW
+b:BWWB
+c:BWBB
+d:WBBB
+
+B wins
+W=7/B=9

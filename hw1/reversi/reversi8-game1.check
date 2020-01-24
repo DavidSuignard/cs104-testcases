@@ -1,0 +1,709 @@
+          
+  12345678
+a:--------
+b:--------
+c:--------
+d:---BW---
+e:---WB---
+f:--------
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--------
+c:--------
+d:---BW---
+e:---BB---
+f:---B----
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--------
+c:--------
+d:--WWW---
+e:---BB---
+f:---B----
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--------
+c:---B----
+d:--WBW---
+e:---BB---
+f:---B----
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---W----
+d:--WBW---
+e:---BB---
+f:---B----
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBB---
+e:---BB---
+f:---B----
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBB---
+e:---WB---
+f:---BW---
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBB---
+e:---WB---
+f:---BBB--
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBW---
+e:---WWW--
+f:---BBB--
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBBB--
+e:---WBB--
+f:---BBB--
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBWB--
+e:---WBW--
+f:---BBBW-
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBWB--
+e:--BBBW--
+f:---BBBW-
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBWB--
+e:--WWBW--
+f:--WWWWW-
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBWB--
+e:--BWBW--
+f:-BWWWWW-
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:---WB---
+d:--WBWB--
+e:--BWBW--
+f:WWWWWWW-
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:--BBB---
+d:--BBWB--
+e:--BWBW--
+f:WWWWWWW-
+g:--------
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:--BBBW--
+d:--BBWW--
+e:--BWBW--
+f:WWWWWWW-
+g:--------
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:--BBBW--
+d:--BBWW--
+e:--BWBW--
+f:WWWBBWW-
+g:----B---
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:--BBBW--
+d:--BBWW--
+e:--BWBW--
+f:WWWWWWW-
+g:---WB---
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--W-----
+c:--BBBW--
+d:--BBWW--
+e:--BWBW--
+f:WWBBWWW-
+g:--BBB---
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--WW----
+c:--BWWW--
+d:--BWWW--
+e:--BWBW--
+f:WWBBWWW-
+g:--BBB---
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--WW--B-
+c:--BWWB--
+d:--BWBW--
+e:--BBBW--
+f:WWBBWWW-
+g:--BBB---
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--WW--B-
+c:-WWWWB--
+d:--WWBW--
+e:--BWBW--
+f:WWBBWWW-
+g:--BBB---
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--------
+b:--WW--B-
+c:-WWWWB--
+d:--WWBB--
+e:--BWBB--
+f:WWBBWBW-
+g:--BBBB--
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:-------W
+b:--WW--W-
+c:-WWWWW--
+d:--WWWB--
+e:--BWBB--
+f:WWBBWBW-
+g:--BBBB--
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:---B---W
+b:--WB--W-
+c:-WWBWW--
+d:--WBWB--
+e:--BBBB--
+f:WWBBWBW-
+g:--BBBB--
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:--WW--W-
+c:-WWBWW--
+d:--WBWB--
+e:--BBBB--
+f:WWBBWBW-
+g:--BBBB--
+h:--------
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW--W-
+c:-BWBWW--
+d:--BBWB--
+e:--BBBB--
+f:WWBBWBW-
+g:--BBBB--
+h:--------
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW--W-
+c:-BWBWW--
+d:--WBWB--
+e:--WBBB--
+f:WWWBWBW-
+g:--WWBB--
+h:--W-----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW--W-
+c:-BWBWW--
+d:--WBWB--
+e:--WBBB--
+f:WWBBWBW-
+g:-BBBBB--
+h:--W-----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW--W-
+c:-BWBWW--
+d:--WBWB--
+e:--WWBB--
+f:WWWBWBW-
+g:-WBBBB--
+h:W-W-----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW--W-
+c:-BWBWW--
+d:--BBWB--
+e:-BBBBB--
+f:WWBBWBW-
+g:-WBBBB--
+h:W-W-----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW--W-
+c:-BWWWW--
+d:--BWWB--
+e:-BBWBB--
+f:WWBWWBW-
+g:-WWWBB--
+h:W-WW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW-BW-
+c:-BWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WWBWWBW-
+g:-WWWBB--
+h:W-WW----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW-BW-
+c:WWWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WWBWWBW-
+g:-WWWBB--
+h:W-WW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:--WB---W
+b:B-WW-BW-
+c:WWWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WBBBWBW-
+g:-BBWBB--
+h:WBWW----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:W-WB---W
+b:W-WW-BW-
+c:WWWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WBBBWBW-
+g:-BBWBB--
+h:WBWW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:W-WB---W
+b:W-WW-BW-
+c:WWWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WBBBWBBB
+g:-BBWBB--
+h:WBWW----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:W-WB---W
+b:W-WW-BW-
+c:WWWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WBBBWBBB
+g:WWWWBB--
+h:WBWW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:W-WB---W
+b:W-WW-BBB
+c:WWWWBB--
+d:--BBWB--
+e:-BBWBB--
+f:WBBBWBBB
+g:WWWWBB--
+h:WBWW----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:W-WB--WW
+b:W-WW-WBB
+c:WWWWWB--
+d:--BWWB--
+e:-BWWBB--
+f:WWBBWBBB
+g:WWWWBB--
+h:WBWW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WBBB--WW
+b:W-BW-WBB
+c:WWWBWB--
+d:--BWBB--
+e:-BWWBB--
+f:WWBBWBBB
+g:WWWWBB--
+h:WBWW----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BW-WBB
+c:WWWBWB--
+d:--BWBB--
+e:-BWWBB--
+f:WWBBWBBB
+g:WWWWBB--
+h:WBWW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWWBB--
+f:WWBBWBBB
+g:WWWWBB--
+h:WBWW----
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWWWB--
+f:WWBBWWBB
+g:WWWWWWW-
+h:WBWW----
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWBWB--
+f:WWBBBWBB
+g:WWWWWBB-
+h:WBWW--B-
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWBWB--
+f:WWBBBWBB
+g:WWWWWBW-
+h:WBWW--BW
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWBWB--
+f:WWBBBWBB
+g:WWWBBBW-
+h:WBBBB-BW
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWBWB--
+f:WWBWBWBB
+g:WWWBWWW-
+h:WWWWWWWW
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWBWB--
+f:WWBWBWBB
+g:WWWBBBBB
+h:WWWWWWWW
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWWBBB--
+d:--BWBB--
+e:-BWBWB-W
+f:WWBWBWWW
+g:WWWBBWBW
+h:WWWWWWWW
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBB
+c:WWBBBB--
+d:-BBWBB--
+e:-BBBWB-W
+f:WWBBBWWW
+g:WWWBBWBW
+h:WWWWWWWW
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBW
+c:WWBBBB-W
+d:-BBWBB--
+e:-BBBWB-W
+f:WWBBBWWW
+g:WWWBBWBW
+h:WWWWWWWW
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:W-BBBBBW
+c:WWBBBB-W
+d:-BBWBB--
+e:-BBBWBBW
+f:WWBBBBBW
+g:WWWBBWBW
+h:WWWWWWWW
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWW-WW
+b:WWWWWWWW
+c:WWWBBB-W
+d:-BBWBB--
+e:-BBBWBBW
+f:WWBBBBBW
+g:WWWBBWBW
+h:WWWWWWWW
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWWBWW
+b:WWWWBBWW
+c:WWWBBB-W
+d:-BBWBB--
+e:-BBBWBBW
+f:WWBBBBBW
+g:WWWBBWBW
+h:WWWWWWWW
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWWBWW
+b:WWWWWBWW
+c:WWWBBW-W
+d:-BBWWWW-
+e:-BBBWWWW
+f:WWBBWBWW
+g:WWWWBWWW
+h:WWWWWWWW
+
+B - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWWBWW
+b:WWWWWBWW
+c:WWWBBW-W
+d:-BBBBBBB
+e:-BBBWWBW
+f:WWBBWBWW
+g:WWWWBWWW
+h:WWWWWWWW
+
+W - Enter 'p r/c', 'q', 'c', 'u':
+          
+  12345678
+a:WWWWWBWW
+b:WWWWWWWW
+c:WWWBBWWW
+d:-BBBBWWB
+e:-BBBWWWW
+f:WWBBWBWW
+g:WWWWBWWW
+h:WWWWWWWW
+
+W wins
+W=47/B=15
