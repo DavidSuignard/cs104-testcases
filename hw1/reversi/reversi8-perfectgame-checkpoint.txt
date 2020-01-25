@@ -1,0 +1,12 @@
+c
+p e6
+p f4
+p d3
+p c4
+p f5
+p e6
+p f3
+p g4
+p e3
+u
+q

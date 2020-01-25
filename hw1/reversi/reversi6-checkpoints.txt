@@ -1,0 +1,21 @@
+c
+p b4
+p b5
+p e3
+u
+u
+p e3
+p e4
+p c5
+c
+p b4
+c
+p e5
+p f4
+c
+p b5
+p a2
+p b2
+p a1
+u
+q

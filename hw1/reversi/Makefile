@@ -15,6 +15,7 @@ test_game1: play_reversi
 	@echo ""
 	./test-reversi 4 < reversi4-game1.txt > reversi4-game1-out.tmp
 	@diff -s  reversi4-game1.check reversi4-game1-out.tmp
+	@echo "Passed!"
 	@echo ""
 	@echo "******************************************************************"
 	@echo "                   Testing reversi Board Size 8"
@@ -26,6 +27,36 @@ test_game1: play_reversi
 	./test-reversi 8 < reversi8-perfectgame.txt > reversi8-perfectgame-out.tmp
 	@diff -s  reversi8-perfectgame.check reversi8-perfectgame-out.tmp
 
+	@echo "Passed!"
+	@echo ""
+	@echo "******************************************************************"
+	@echo "                   Testing reversi Checkpoints"
+	@echo "******************************************************************"
+	@echo ""
+	./test-reversi 6 < reversi6-checkpoints.txt > reversi6-checkpoints-out.tmp
+	@diff -s  reversi6-checkpoints.check reversi6-checkpoints-out.tmp
+
+	@echo "Passed!"
+	@echo ""
+	@echo "******************************************************************"
+	@echo "                     Valgrind Memleak test-1"
+	@echo "******************************************************************"
+	@echo ""
+	valgrind --tool=memcheck --leak-check=yes ./test-reversi 8 < reversi8-perfectgame-checkpoint.txt
+
+	@echo ""
+	@echo "******************************************************************"
+	@echo "                     Valgrind Memleak test-2"
+	@echo "******************************************************************"
+	@echo ""
+	valgrind --tool=memcheck --leak-check=yes ./test-reversi 6 < reversi6-checkpoints.txt
+
+	@echo ""
+	@echo "******************************************************************"
+	@echo "                               WARNING"
+	@echo "           THIS MAKE CANNOT AUTOMATICALLY DETECT LEAKS:"
+	@echo "      Please check valgrind output to check for memory leaks!"
+	@echo "******************************************************************"
 	@echo ""
 	@echo "Passed all tests!"
 	@echo ""
