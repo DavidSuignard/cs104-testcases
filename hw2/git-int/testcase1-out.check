@@ -1,0 +1,79 @@
+Menu:                          
+===============================
+create   filename int-value    
+edit     filename int-value    
+display  (filename)            
+display  commit-num            
+add      file1 (file2 ...)     
+commit   "log-message"       
+tag      (-a tag-name)         
+log                            
+checkout commit-num/tag-name   
+diff                           
+diff     commit                
+diff     commit-n commit-m     
+$ $ $ $ $ Commit: 1
+Initial entry
+
+$ $ $ $ Commit: 2
+Updated a.txt
+
+Commit: 1
+Initial entry
+
+$ $ $ $ $ Commit: 3
+changed b.txt
+
+Commit: 2
+Updated a.txt
+
+Commit: 1
+Initial entry
+
+$ a.txt : 101
+b.txt : 205
+$ $ a.txt : 101
+b.txt : 200
+$ $ a.txt : 100
+b.txt : 200
+$ $ $ $ $ Commit: 4
+extensions to commit 1
+
+Commit: 1
+Initial entry
+
+$ $ $ $ Commit: 5
+another extension
+
+Commit: 4
+extensions to commit 1
+
+Commit: 1
+Initial entry
+
+$ a.txt : 150
+b.txt : 250
+c.txt : 300
+$ $ a.txt : 101
+b.txt : 205
+$ $ $ $ Commit: 6
+extend commit 3
+
+Commit: 3
+changed b.txt
+
+Commit: 2
+Updated a.txt
+
+Commit: 1
+Initial entry
+
+$ $ $ a.txt : 8
+b.txt : 5
+$ a.txt : 8
+b.txt : 5
+$ a.txt : 9
+b.txt : 5
+$ a.txt : 1
+b.txt : 5
+$ 

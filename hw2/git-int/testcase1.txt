@@ -1,0 +1,42 @@
+create a.txt 100
+create b.txt 200
+add a.txt b.txt
+commit "Initial entry"
+log
+edit a.txt 101
+add a.txt
+commit "Updated a.txt"
+log
+tag -a v1-release
+edit b.txt 205
+add b.txt
+commit "changed b.txt"
+log
+display
+checkout v1-release
+display
+checkout 1
+display
+edit b.txt 250
+create c.txt 300
+add b.txt c.txt
+commit "extensions to commit 1"
+log
+edit a.txt 150
+add a.txt
+commit "another extension"
+log
+display
+checkout 3
+display
+edit a.txt 102
+add a.txt
+commit "extend commit 3"
+log
+edit a.txt 110
+edit b.txt 210
+diff
+diff 6
+diff 3
+diff 6 2
+quit
