@@ -17,6 +17,8 @@ test_game1: compile_gitint
 	@diff -s  testcase1-out.check testcase1-out.tmp
 	@echo "Cleaning up temporary file!"
 	rm -rf testcase1-out.tmp
+
+#written by CP Jamie
 run_shell: compile_gitint
 	valgrind --tool=memcheck --leak-check=yes ./gitint-shell
 
