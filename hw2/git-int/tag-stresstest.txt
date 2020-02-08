@@ -50,5 +50,31 @@ tag -a aw
 tag -a ax
 tag -a ay
 tag -a az
+tag -a ba
+tag -a bb
+tag -a bc
+tag -a bd
+tag -a be
+tag -a bf
+tag -a bg
+tag -a bh
+tag -a bi
+tag -a bj
+tag -a bk
+tag -a bl
+tag -a bm
+tag -a bn
+tag -a bo
+tag -a bp
+tag -a bq
+tag -a br
+tag -a bs
+tag -a bt
+tag -a bu
+tag -a bv
+tag -a bw
+tag -a bx
+tag -a by
+tag -a bz
 tag
 quit

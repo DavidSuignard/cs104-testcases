@@ -1,0 +1,93 @@
+Menu:                          
+===============================
+create   filename int-value    
+edit     filename int-value    
+display  (filename)            
+display  commit-num            
+add      file1 (file2 ...)     
+commit   "log-message"       
+tag      (-a tag-name)         
+log                            
+checkout commit-num/tag-name   
+diff                           
+diff     commit                
+diff     commit-n commit-m     
+$ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ $ bz
+by
+bx
+bw
+bv
+bu
+bt
+bs
+br
+bq
+bp
+bo
+bn
+bm
+bl
+bk
+bj
+bi
+bh
+bg
+bf
+be
+bd
+bc
+bb
+ba
+az
+ay
+ax
+aw
+av
+au
+at
+as
+ar
+aq
+ap
+ao
+an
+am
+al
+ak
+aj
+ai
+ah
+ag
+af
+ae
+ad
+ac
+ab
+aa
+z
+y
+x
+w
+v
+u
+t
+s
+r
+q
+p
+o
+n
+m
+l
+k
+j
+i
+h
+g
+f
+e
+d
+c
+b
+a
+$ 

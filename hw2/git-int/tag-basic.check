@@ -1,0 +1,21 @@
+Menu:                          
+===============================
+create   filename int-value    
+edit     filename int-value    
+display  (filename)            
+display  commit-num            
+add      file1 (file2 ...)     
+commit   "log-message"       
+tag      (-a tag-name)         
+log                            
+checkout commit-num/tag-name   
+diff                           
+diff     commit                
+diff     commit-n commit-m     
+$ $ $ $ $ $ $ $ $ $ $ $ $ a.txt : 101
+$ $ v1-intermediate
+v2
+v1
+$ $ a.txt : 102
+$ $ a.txt : 101
+$ 

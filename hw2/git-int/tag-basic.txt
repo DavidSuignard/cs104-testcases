@@ -1,0 +1,20 @@
+create a.txt 100
+add a.txt
+commit "Msg1"
+tag -a v1
+edit a.txt 101
+add a.txt
+commit "Msg2"
+edit a.txt 102
+add a.txt
+commit "Msg3"
+tag -a v2
+checkout 2
+display
+tag -a v1-intermediate
+tag
+checkout v2
+display
+checkout v1-intermediate
+display
+quit
