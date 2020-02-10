@@ -6,7 +6,10 @@ all: compile_gitint
 compile_gitint: gitint.cpp gitint-shell.cpp 
 	$(CXX) $(CXXFLAGS) gitint.cpp gitint-shell.cpp -o gitint-shell
 
-test: test_case1 basic_tags stress_test_tags
+compile_gitint_with_testcase: gitint.cpp testcases.cpp
+	$(CXX) $(CXXFLAGS) gitint.cpp testcases.cpp -o testcases
+
+test: test_case1 basic_tags stress_test_tags error_messages_test
 
 test_case1: compile_gitint
 	@echo "******************************************************************"
@@ -45,6 +48,18 @@ stress_test_tags: compile_gitint
 	rm -rf tag-stresstest-out.tmp
 	@echo "Passed!"
 	@echo ""
+
+error_messages_test: compile_gitint_with_testcase
+	@echo "******************************************************************"
+	@echo "                   Error messages testing"
+	@echo "******************************************************************"
+	@echo ""
+	./testcases > evehlingtestcase-out.tmp
+	python diff.py evehlingtestcase.check evehlingtestcase-out.tmp
+	@echo "Cleaning up temporary file!"
+	#rm -rf evehlingtestcase-out.tmp
+	@echo ""
+
 
 #written by CP Jamie
 run_shell: compile_gitint

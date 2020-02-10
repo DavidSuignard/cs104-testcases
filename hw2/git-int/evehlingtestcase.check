@@ -1,0 +1,189 @@
+---------------Start Tests---------------------
+
+Testing constructor...
+-------------------------------------------
+Testing create...
+Error - .*
+Created files:
+a.txt : 1
+b.txt : 2
+c.txt : 100
+d.txt : 100
+f.txt : 20
+-------------------------------------------
+Testing edit...
+a.txt : 5
+Error - .*
+Error - .*
+---
+All files: 
+a.txt : 5
+b.txt : 5
+c.txt : 1
+d.txt : 100
+f.txt : 20
+-------------------------------------------
+Testing add...
+Error - .*
+-------------------------------------------
+Testing commit and tag...
+All files:
+a.txt : 5
+b.txt : 5
+c.txt : 1
+d.txt : 100
+f.txt : 20
+---
+Error - .*
+---
+Commit 1: 
+a.txt : 5
+b.txt : 5
+---
+Commit 2: 
+c.txt : 1
+---
+Commit 3: 
+f.txt : 20
+---
+Error - .*
+Error - .*
+---
+Log:
+Commit: 3
+added f.txt
+
+Commit: 2
+added c.txt
+
+Commit: 1
+added a.txt and b.txt
+
+---
+Tags:
+v3
+v1.2
+v1
+-------------------------------------------
+Testing valid commit...
+1 1 1 1 0
+-------------------------------------------
+Testing checkout by ID...
+Files in Commit 1:
+a.txt : 5
+b.txt : 5
+---
+Files in Commit 2:
+a.txt : 5
+b.txt : 5
+c.txt : 1
+---
+Files in Commit 0:
+---
+Error - .*
+---
+Current files: 
+a.txt : 10
+b.txt : 5
+---
+Error - .*
+---
+Files in Commit 4
+a.txt : 10
+b.txt : 5
+---
+Log: 
+Commit: 4
+Edited a.txt
+
+Commit: 1
+added a.txt and b.txt
+
+-------------------------------------------
+Testing checkout by tag...
+Error - .*
+---
+Files in Commit 4:
+a.txt : 10
+b.txt : 5
+---
+Files in Commit 1:
+a.txt : 5
+b.txt : 5
+---
+Files in Commit 1:
+a.txt : 5
+b.txt : 5
+---
+Files in Commit 5:
+a.txt : 5
+b.txt : 10
+---
+Log:
+Commit: 5
+edited b.txt
+
+Commit: 1
+added a.txt and b.txt
+
+---
+Error - .*
+Error - .*
+---
+Tags:
+v4
+v3
+v1.2
+v1
+-------------------------------------------
+Testing diff...
+Current files:
+a.txt : 5
+b.txt : 10
+---
+Diff from commit 0:
+a.txt : 5
+b.txt : 10
+---
+Diff from Commit 1:
+b.txt : 5
+---
+Diff between 0 and 1:
+Error - .*
+---
+Diff between 1 and 0:
+a.txt : 5
+b.txt : 5
+---
+Error - .*
+---
+Error - .*
+---
+Error - .*
+---
+Diff between Commit 5:
+---
+Diff between Commit 4:
+a.txt : -5
+b.txt : 5
+---
+Diff between Commit 3:
+b.txt : 5
+---
+Diff between Commit 2:
+b.txt : 5
+---
+Log:
+Commit: 1
+added a.txt and b.txt
+
+---
+Diff between Commit 1: 
+---
+Error - .*
+Files in Commit 3:
+a.txt : 5
+b.txt : 5
+c.txt : 1
+f.txt : 20
+--------------------End Tests---------------------
