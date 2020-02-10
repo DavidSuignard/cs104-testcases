@@ -8,6 +8,10 @@ const std::string DIVIDER = "-------------------------------------------\n";
 const std::string SM_DIV = "---\n";
 void print_exception_message(const std::string& what_msg);
 
+
+//Written by Elisabeth Vehling
+
+
 int main()
 {
   //Note: this assumes your display works so you can compare your results to these!
