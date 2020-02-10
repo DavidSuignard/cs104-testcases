@@ -9,7 +9,7 @@ compile_gitint: gitint.cpp gitint-shell.cpp
 compile_gitint_with_testcase: gitint.cpp testcases.cpp
 	$(CXX) $(CXXFLAGS) gitint.cpp testcases.cpp -o testcases
 
-test: test_case1 basic_tags stress_test_tags error_messages_test
+test: test_case1 basic_tags stress_test_tags error_messages_test error_msg_userinput_test
 
 test_case1: compile_gitint
 	@echo "******************************************************************"
@@ -52,13 +52,27 @@ stress_test_tags: compile_gitint
 error_messages_test: compile_gitint_with_testcase
 	@echo "******************************************************************"
 	@echo "                   Error messages testing"
+	@echo "                Written by Elisabeth Vehling, "
+	@echo "     specialized python diff tool written by David Suignard"
 	@echo "******************************************************************"
 	@echo ""
 	./testcases > evehlingtestcase-out.tmp
 	python diff.py evehlingtestcase.check evehlingtestcase-out.tmp
-	@echo "Cleaning up temporary file!"
-	#rm -rf evehlingtestcase-out.tmp
+	@echo "Manually delete the .tmp file if you do not need it to debug!"
 	@echo ""
+
+error_msg_userinput_test: compile_gitint
+	@echo "******************************************************************"
+	@echo "              Error messages testing using gitint-shell"
+	@echo "                  Written by Elisabeth Vehling, "
+	@echo "     specialized python diff tool written by David Suignard"
+	@echo "******************************************************************"
+	@echo ""
+	./gitint-shell < test_input.in > evehlingUI-out.tmp
+	python diff.py evehlingUI.check evehlingUI-out.tmp
+	@echo "Manually delete the .tmp file if you do not need it to debug!"
+	@echo ""
+
 
 
 #written by CP Jamie

@@ -1,0 +1,136 @@
+Menu:                          
+===============================
+create   filename int-value    
+edit     filename int-value    
+display  \(filename\)            
+display  commit-num            
+add      file1 \(file2 ...\)     
+commit   "log-message"       
+tag      \(-a tag-name\)         
+log                            
+checkout commit-num/tag-name   
+diff                           
+diff     commit                
+diff     commit-n commit-m     
+\$ \$ \$ \$ Error - .*
+\$ Error - .*
+\$ \$ \$ \$ \$ Error - .*
+\$ \$ Error - .*
+\$ a.txt : 5
+b.txt : 5
+c.txt : 3
+d.txt : 100
+f.txt : 20
+\$ \$ \$ Error - .*
+\$ a.txt : 5
+b.txt : 5
+c.txt : 3
+d.txt : 100
+f.txt : 20
+\$ a.txt : 5
+Error - .*
+\$ \$ \$ \$ Error - .*
+\$ \$ d.txt : 100
+Error - .*
+\$ \$ \$ \$ \$ Error - .*
+\$ Error - .*
+\$ a.txt : 5
+b.txt : 5
+\$ c.txt : 3
+\$ f.txt : 20
+\$ \$ Error - .*
+\$ Error - .*
+\$ Error - .*
+\$ Commit: 3
+added f.txt
+
+Commit: 2
+added c.txt
+
+Commit: 1
+added a.txt and b.txt
+
+\$ Error - .*
+\$ \$ a.txt : 5
+b.txt : 5
+\$ \$ a.txt : 5
+b.txt : 5
+c.txt : 3
+\$ \$ Error - .*
+\$ \$ Error - .*
+\$ Error - .*
+\$ Error - .*
+\$ \$ \$ \$ Error - .*
+\$ Error - .*
+\$ \$ \$ a.txt : 5
+b.txt : 5
+\$ \$ a.txt : 5
+b.txt : 5
+\$ \$ \$ \$ a.txt : 5
+b.txt : 10
+\$ Commit: 4
+edited b.txt
+
+Commit: 1
+added a.txt and b.txt
+
+\$ \$ Error - .*
+\$ \$ v4
+v3
+v1.2
+v1
+\$ a.txt : 5
+b.txt : 10
+\$ a.txt : 5
+b.txt : 10
+\$ b.txt : 5
+\$ Error - .*
+\$ a.txt : 5
+b.txt : 5
+\$ Error - .*
+\$ Error - .*
+\$ Error - .*
+\$ \$ Error - .*
+\$ \$ Error - .*
+\$ \$ b.txt : 5
+\$ b.txt : 5
+\$ b.txt : 5
+\$ \$ \$ \$ \$ Error - .*
+\$ Commit: 5
+added e.txt
+
+Commit: 1
+added a.txt and b.txt
+
+\$ \$ Commit: 4
+edited b.txt
+
+Commit: 1
+added a.txt and b.txt
+
+\$ b.txt : 5
+\$ Error - .*
+\$ e.txt : 104
+\$ Error - .*
+\$ \$ a.txt : 5
+b.txt : 5
+c.txt : 3
+f.txt : 20
+\$ Error - .*
+\$ Error - .*
+\$ Error - .*
+\$ Error - .*
+\$ \$ Error - .*
+\$ \$ Commit: 6
+only this should be in msg
+
+Commit: 3
+added f.txt
+
+Commit: 2
+added c.txt
+
+Commit: 1
+added a.txt and b.txt
+
+\$ 
